@@ -24,7 +24,7 @@ class OTPChildEditText : androidx.appcompat.widget.AppCompatEditText {
         setTextColor(Color.TRANSPARENT)
         textSize = 40f
         background = null
-        inputType = InputType.TYPE_CLASS_TEXT
+        inputType = InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS
         setSelectAllOnFocus(false)
         setTextIsSelectable(false)
     }
